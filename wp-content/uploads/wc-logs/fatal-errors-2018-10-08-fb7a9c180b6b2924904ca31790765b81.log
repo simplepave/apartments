@@ -1,0 +1,24 @@
+2018-10-08T05:08:38+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in W:\domains\apartments.local\wp-content\themes\storefront\catalog.php:20
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-08T08:29:45+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_attributes() in W:\domains\apartments.local\wp-content\themes\storefront\catalog.php:65
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-08T08:46:02+00:00 CRITICAL Uncaught Error: Cannot access protected property WC_Product_Attribute::$data in W:\domains\apartments.local\wp-content\themes\storefront\catalog.php:72
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+

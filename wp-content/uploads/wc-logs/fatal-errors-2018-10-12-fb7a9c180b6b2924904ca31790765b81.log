@@ -1,0 +1,70 @@
+2018-10-12T08:16:49+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on null in W:\domains\apartments.local\wp-content\themes\sptheme\functions.php:348
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\class-wp-hook.php(288): custom_add_email_order_meta(Object(WC_Order), true, false)
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 W:\domains\apartments.local\wp-content\plugins\woocommerce\templates\emails\admin-new-order.php(43): do_action('woocommerce_ema...', Object(WC_Order), true, false, Object(WC_Email_New_Order))
+#4 W:\domains\apartments.local\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('W:\\domains\\apar...')
+#5 W:\domains\apartments.local\wp-content\plugins\woocommerce\includes\wc-core-functions.php(230): wc_get_template('emails/admin-ne...', Array, '', '')
+#6 W:\domains\apartments.local\wp-content\plugins\woocommerce\includes\email
+
+2018-10-12T14:56:07+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\template-parts\shop\shop-card.php:88
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template.php(690): require()
+#1 W:\domains\apartments.local\wp-includes\template.php(647): load_template('W:\\domains\\apar...', false)
+#2 W:\domains\apartments.local\wp-includes\general-template.php(155): locate_template(Array, true, false)
+#3 W:\domains\apartments.local\wp-content\themes\sptheme\catalog.php(10): get_template_part('template-parts/...', 'card')
+#4 W:\domains\apartments.local\wp-includes\template-loader.php(74): include('W:\\domains\\apar...')
+#5 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#6 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#7 {main}
+  thrown
+
+2018-10-12T16:27:36+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\index.php:65
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-12T16:30:20+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\index.php:65
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-12T16:32:52+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\index.php:65
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-12T16:33:23+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\index.php:65
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-12T16:34:14+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\index.php:65
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-12T16:34:34+00:00 CRITICAL Uncaught Error: Call to a member function is_reservation() on null in W:\domains\apartments.local\wp-content\themes\sptheme\index.php:64
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+

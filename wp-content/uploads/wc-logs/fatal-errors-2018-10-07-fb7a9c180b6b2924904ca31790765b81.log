@@ -1,0 +1,550 @@
+2018-10-07T19:53:09+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_is_woocommerce_activated() in W:\domains\apartments.local\wp-content\themes\storefront\functions.php:39
+Stack trace:
+#0 W:\domains\apartments.local\wp-settings.php(426): include()
+#1 W:\domains\apartments.local\wp-config.php(88): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\wp-load.php(37): require_once('W:\\domains\\apar...')
+#3 W:\domains\apartments.local\wp-blog-header.php(13): require_once('W:\\domains\\apar...')
+#4 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#5 {main}
+  thrown
+
+2018-10-07T20:13:37+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:13:38+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:13:38+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:13:38+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:13:38+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:13:38+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:09+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:11+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:11+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:11+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:11+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:11+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:50+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:17:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:19:50+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:19:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:19:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:19:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:19:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:19:51+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:20:16+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:20:18+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:20:18+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:20:18+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:20:18+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:20:18+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:22:45+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:22:47+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:22:47+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:22:47+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:22:47+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:22:47+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:38:15+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:38:17+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:38:17+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:38:17+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:38:17+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:38:17+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:39:38+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:39:39+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:39:39+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:39:39+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:39:39+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-07T20:39:39+00:00 CRITICAL Uncaught Error: Class 'Storefront_Customizer' not found in W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php:355
+Stack trace:
+#0 W:\domains\apartments.local\wp-content\themes\storefront\inc\woocommerce\class-storefront-woocommerce.php(55): Storefront_WooCommerce->get_woocommerce_extension_css()
+#1 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): Storefront_WooCommerce->add_customizer_css('')
+#2 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#4 W:\domains\apartments.local\wp-includes\script-loader.php(1447): do_action('wp_enqueue_scri...')
+#5 W:\domains\apartments.local\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#6 W:\domains\apartments.local\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 W:\domains\apartments.local\wp-includes\plugin.php(453): WP_Hook->do_acti
+
+2018-10-08T01:05:49+00:00 CRITICAL Uncaught Error: Class 'Top_Walker_Nav_Menu' not found in W:\domains\apartments.local\wp-content\themes\storefront\header.php:43
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template.php(688): require_once()
+#1 W:\domains\apartments.local\wp-includes\template.php(647): load_template('W:\\domains\\apar...', true)
+#2 W:\domains\apartments.local\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 W:\domains\apartments.local\wp-content\themes\storefront\index.php(6): get_header()
+#4 W:\domains\apartments.local\wp-includes\template-loader.php(74): include('W:\\domains\\apar...')
+#5 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#6 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#7 {main}
+  thrown
+

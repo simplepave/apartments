@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('OpenSansRegular.eot');
+    src: url('OpenSansRegular.eot') format('embedded-opentype'),
+         url('OpenSansRegular.woff2') format('woff2'),
+         url('OpenSansRegular.woff') format('woff'),
+         url('OpenSansRegular.ttf') format('truetype'),
+         url('OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('OpenSansBold.eot');
+    src: url('OpenSansBold.eot') format('embedded-opentype'),
+         url('OpenSansBold.woff2') format('woff2'),
+         url('OpenSansBold.woff') format('woff'),
+         url('OpenSansBold.ttf') format('truetype'),
+         url('OpenSansBold.svg#OpenSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('BebasNeueBold.eot');
+    src: url('BebasNeueBold.eot') format('embedded-opentype'),
+         url('BebasNeueBold.woff2') format('woff2'),
+         url('BebasNeueBold.woff') format('woff'),
+         url('BebasNeueBold.ttf') format('truetype'),
+         url('BebasNeueBold.svg#BebasNeueBold') format('svg');
+}
+
+@font-face {
+    font-family: 'flexslidericon';
+    src: url('flexslidericon.eot');
+    src: url('flexslidericon.eot') format('embedded-opentype'),
+         url('flexslidericon.woff2') format('woff2'),
+         url('flexslidericon.woff') format('woff'),
+         url('flexslidericon.ttf') format('truetype'),
+         url('flexslidericon.svg#flexslidericon') format('svg');
+}
