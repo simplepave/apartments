@@ -41,7 +41,6 @@ foreach($query as $product){
     $img_src = wp_get_attachment_image_src(get_post_thumbnail_id($product->ID), 'full')[0];
     $price = number_format(get_post_meta($product->ID, '_price', true), 0, ',', ' ');
 ?>
-        <div class="col-md-4">
             <div class="take_off_block">
                 <div class="img_take_off">
                     <a href="<?php echo $card_url; ?>"><img src="<?php echo $img_src; ?>" alt=""></a>
@@ -78,7 +77,6 @@ foreach($query as $product){
 <?php } ?>
                 </div>
             </div>
-        </div>
 <?php }
 $products = ob_get_clean();
 
@@ -98,7 +96,7 @@ if ($query) {
     <div class="take_off">
         <div class="container">
             <?php echo isset($home_header)? $home_header: ''; ?>
-            <div class="row products-block">
+            <div class="row justify-content-between products-block">
             <?php echo $products; ?>
             </div>
         </div>

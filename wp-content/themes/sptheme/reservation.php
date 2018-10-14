@@ -34,7 +34,7 @@ get_header();
         <div class="apartment_reservation_title"></div>
         <div class="container">
             <div class="apartment_reservation">
-                <div class="block_header">бронирование квартир</div>
+                <div class="block_header"><?php the_title(); ?> квартир</div>
                 <div class="apartment_reservation_form">
                     <div class="head_apartment">забронировать квартиру</div>
                     <form id="reservation-form" action="<?php echo $post_url; ?>" method="post">

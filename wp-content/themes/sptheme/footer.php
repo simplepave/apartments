@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * Footer
+ */
+
 $product_categories = get_categories([
         'menu_order' => 'ASC',
         'hide_empty' => 1,

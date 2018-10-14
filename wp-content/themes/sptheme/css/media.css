@@ -156,6 +156,10 @@
 	.news_block ul li {
 		margin:0 0 20px;
 	}
+	.news_more_slider .item_news_more {
+		max-width:none;
+		width:100%;
+	}
 }
 @media (min-width: 280px) and (max-width: 540px) {
 	.logo_block {
@@ -250,5 +254,11 @@
 	.apartment_popup .input_row {
 		max-width:none;
 		margin:0 !important;
+	}
+	.news_more_text {
+		padding:30px 20px;
+	}
+	.news_more_slider .item_news_more {
+		padding:40px;
 	}
 }

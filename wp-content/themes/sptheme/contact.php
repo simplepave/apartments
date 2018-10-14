@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * Template name: Контакты
  */
 
@@ -9,7 +9,7 @@ get_header();
         <div class="apartment_reservation_title"></div>
         <div class="contacts">
             <div class="container">
-                <div class="block_header">контакты</div>
+                <div class="block_header"><?php the_title(); ?></div>
                 <div class="row_flex">
                     <div class="map">
                         <iframe src="<?php echo esc_html(get_option('google_maps', '')); ?>" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>

@@ -1,10 +1,13 @@
 <?php
+
 /**
  * SimplePAVE
  * info@simplepave.ru
  */
 
-define('BOCW_BASEPATH', str_replace("\\", "/",realpath(pathinfo(__FILE__, PATHINFO_DIRNAME)))."/");
+/**
+ *
+ */
 
 require 'classes/SP_Woo.php';
 
@@ -23,7 +26,7 @@ wp_clear_scheduled_hook('wp_update_themes');
  */
 
 if (!is_woocommerce() && !is_cart() && !is_checkout()) {
-    // add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+    // add_filter('woocommerce_enqueue_styles', '__return_false');
     remove_action('wp_enqueue_scripts', [WC_Frontend_Scripts::class, 'load_scripts']);
     remove_action('wp_print_scripts', [WC_Frontend_Scripts::class, 'localize_printed_scripts'], 5);
     remove_action('wp_print_footer_scripts', [WC_Frontend_Scripts::class, 'localize_printed_scripts'], 5);
@@ -34,56 +37,61 @@ if (!is_woocommerce() && !is_cart() && !is_checkout()) {
  */
 
 function sp_scripts() {// wp_dequeue_style ();
-    wp_enqueue_style( 'styles', get_template_directory_uri().'/css/styles.css', array(), null );
-    wp_enqueue_style( 'animate.min', get_template_directory_uri().'/css/animate.min.css', array(), null );
-    wp_enqueue_style( 'media', get_template_directory_uri().'/css/media.css', array(), null );
+    wp_enqueue_style('styles', get_template_directory_uri().'/css/styles.css', array(), null);
+    wp_enqueue_style('animate.min', get_template_directory_uri().'/css/animate.min.css', array(), null);
+    wp_enqueue_style('media', get_template_directory_uri().'/css/media.css', array(), null);
 
     if (get_query_var('shop-product')) {
-        wp_enqueue_style ( 'flexslider', get_template_directory_uri() . '/css/flexslider.css', array(), null );
-        wp_enqueue_style ( 'simplelightbox', get_template_directory_uri() . '/css/simplelightbox.css', array(), null );
+        wp_enqueue_style ('flexslider', get_template_directory_uri() . '/css/flexslider.css', array(), null);
+        wp_enqueue_style ('simplelightbox', get_template_directory_uri() . '/css/simplelightbox.css', array(), null);
     }
 
-    wp_enqueue_style ( 'magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css', array(), null );
-    wp_enqueue_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.css', array(), null );
-    wp_enqueue_style( 'bootstrap-grid', get_template_directory_uri().'/css/bootstrap-grid.css', array(), null );
-    wp_enqueue_style( 'bootstrap-datepicker', get_template_directory_uri().'/css/bootstrap-datepicker.min.css', array(), null );
+    if (is_single())
+        wp_enqueue_style ('owl.carousel.min', get_template_directory_uri() . '/css/owl.carousel.min.css', array(), null);
 
-    wp_deregister_script( 'jquery' );
-    wp_enqueue_script( 'jquery', get_template_directory_uri() .'/js/jquery-2.0.3.min.js', array(), '2.0.3', false );
+    wp_enqueue_style ('magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css', array(), null);
+    wp_enqueue_style('bootstrap', get_template_directory_uri().'/css/bootstrap.css', array(), null);
+    wp_enqueue_style('bootstrap-grid', get_template_directory_uri().'/css/bootstrap-grid.css', array(), null);
+    wp_enqueue_style('bootstrap-datepicker', get_template_directory_uri().'/css/bootstrap-datepicker.min.css', array(), null);
 
-    wp_enqueue_script( 'bootstrap-datepicker', get_template_directory_uri() .'/js/bootstrap-datepicker.min.js
-', array(), '1.6.4', false );
-    wp_enqueue_script( 'bootstrap-datepicker.ru', get_template_directory_uri() .'/js/bootstrap-datepicker.ru.min.js
-', array(), '1.6.4', false );
-    wp_enqueue_script( 'jquery.inputmask.bundle', get_template_directory_uri() .'/js/jquery.inputmask.bundle.min.js
-', array(), '4.0.1', false );
+    wp_deregister_script('jquery');
+    wp_enqueue_script( 'jquery', get_template_directory_uri() .'/js/jquery-2.0.3.min.js', array(), '2.0.3', false);
 
-    wp_enqueue_script( 'jquery.flexslider', get_template_directory_uri() .'/js/jquery.flexslider.js', array(), '2.7.0', true );
-    wp_enqueue_script( 'jquery.formstyler', get_template_directory_uri() .'/js/jquery.formstyler.js', array(), false, true );
-    wp_enqueue_script( 'jquery.magnific-popup', get_template_directory_uri() .'/js/jquery.magnific-popup.js', array(), '0.9.4', true );
-    wp_enqueue_script( 'jquery.placeholder', get_template_directory_uri() .'/js/jquery.placeholder.min.js', array(), false, true );
+    wp_enqueue_script('bootstrap-datepicker', get_template_directory_uri() .'/js/bootstrap-datepicker.min.js
+', array(), '1.6.4', false);
+    wp_enqueue_script('bootstrap-datepicker.ru', get_template_directory_uri() .'/js/bootstrap-datepicker.ru.min.js
+', array(), '1.6.4', false);
+    wp_enqueue_script('jquery.inputmask.bundle', get_template_directory_uri() .'/js/jquery.inputmask.bundle.min.js
+', array(), '4.0.1', false);
+
+    wp_enqueue_script('jquery.flexslider', get_template_directory_uri() .'/js/jquery.flexslider.js', array(), '2.7.0', true);
+    wp_enqueue_script('jquery.formstyler', get_template_directory_uri() .'/js/jquery.formstyler.js', array(), false, true);
+    wp_enqueue_script('jquery.magnific-popup', get_template_directory_uri() .'/js/jquery.magnific-popup.js', array(), '0.9.4', true);
+    wp_enqueue_script('jquery.placeholder', get_template_directory_uri() .'/js/jquery.placeholder.min.js', array(), false, true);
 
 
     if (get_query_var('shop-product')) {
-        wp_enqueue_script( 'simple-lightbox', get_template_directory_uri() .'/js/simple-lightbox.js', array(), false, true );
-        wp_enqueue_script( 'lightbox', get_template_directory_uri() .'/js/lightbox.js', array(), false, true );
+        wp_enqueue_script('simple-lightbox', get_template_directory_uri() .'/js/simple-lightbox.js', array(), false, true);
+        wp_enqueue_script('lightbox', get_template_directory_uri() .'/js/lightbox.js', array(), false, true);
     }
 
-    wp_enqueue_script( 'scripts', get_template_directory_uri() .'/js/scripts.js', array(), false, true );
-    wp_enqueue_script( 'sp', get_template_directory_uri() .'/js/sp.js', array(), '0.1.0', true );
+    if (is_single())
+        wp_enqueue_script('owl.carousel', get_template_directory_uri() .'/js/owl.carousel.js', array(), false, true);
+
+    wp_enqueue_script('scripts', get_template_directory_uri() .'/js/scripts.js', array(), false, true);
+    wp_enqueue_script('sp', get_template_directory_uri() .'/js/sp.js', array(), '0.1.0', true);
 }
 
 if(!is_admin())
-    add_action( 'wp_enqueue_scripts', 'sp_scripts' );
+    add_action('wp_enqueue_scripts', 'sp_scripts');
 
 /**
  *
  */
 
-add_action( 'after_setup_theme', 'sp_setup' );
+add_action('after_setup_theme', 'sp_setup');
 
 function sp_setup() {
-
     register_nav_menus([
         'header-menu' => 'Меню в шапке',
         'footer-menu' => 'Меню в подвале',
@@ -94,7 +102,7 @@ function sp_setup() {
  *
  */
 
-function shop_redirect(){
+function shop_redirect() {
     $request = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
     $path = explode('/', trim($request,'/'));
 
@@ -109,7 +117,7 @@ function shop_redirect(){
     }
 }
 
-add_action( 'template_redirect', 'shop_redirect', 1 );
+add_action('template_redirect', 'shop_redirect', 1);
 
 /**
  *
@@ -117,7 +125,7 @@ add_action( 'template_redirect', 'shop_redirect', 1 );
 
 add_action('init', 'do_rewrite');
 
-function do_rewrite(){
+function do_rewrite() {
     add_rewrite_rule('^каталог-квартир/([^/]*)/?([^/]*)?/?$', 'index.php?page_id=37&shop-category=$matches[1]&shop-product=$matches[2]', 'top');
 
     add_filter('query_vars', function($vars) {
@@ -130,7 +138,6 @@ function do_rewrite(){
 if (!function_exists('shop_data')) {
     function shop_data($item = false) {
         $post = get_post(37);
-
         return $item? $post->$item: $post;
     }
 }
@@ -139,10 +146,10 @@ if (!function_exists('shop_data')) {
  *
  */
 
-add_action( 'admin_init', 'sp_settings_api_init' );
+add_action('admin_init', 'sp_settings_api_init');
 
 function sp_settings_api_init() {
-    register_setting( 'general', 'phone', 'sanitize_text_field' );
+    register_setting('general', 'phone', 'sanitize_text_field');
 
     add_settings_field(
         'phone',
@@ -151,7 +158,7 @@ function sp_settings_api_init() {
         'general'
     );
 
-    register_setting( 'general', 'address', 'sanitize_text_field' );
+    register_setting('general', 'address', 'sanitize_text_field');
 
     add_settings_field(
         'address',
@@ -160,7 +167,7 @@ function sp_settings_api_init() {
         'general'
     );
 
-    register_setting( 'general', 'google_maps', 'sanitize_text_field' );
+    register_setting('general', 'google_maps', 'sanitize_text_field');
 
     add_settings_field(
         'google_maps',
@@ -169,7 +176,7 @@ function sp_settings_api_init() {
         'general'
     );
 
-    register_setting( 'general', 'youtube', 'sanitize_text_field' );
+    register_setting('general', 'youtube', 'sanitize_text_field');
 
     add_settings_field(
         'youtube',
@@ -180,23 +187,23 @@ function sp_settings_api_init() {
 }
 
 function phone_field_html() {
-    $value = get_option( 'phone', '' );
-    printf( '<input type="text" id="phone" class="regular-text" name="phone" value="%s" />', esc_attr( $value ) );
+    $value = get_option('phone', '');
+    printf('<input type="text" id="phone" class="regular-text" name="phone" value="%s" />', esc_attr($value));
 }
 
 function address_field_html() {
-    $value = get_option( 'address', '' );
-    printf( '<input type="text" id="address" class="regular-text" name="address" value="%s" />', esc_attr( $value ) );
+    $value = get_option('address', '');
+    printf('<input type="text" id="address" class="regular-text" name="address" value="%s" />', esc_attr($value));
 }
 
 function google_maps_field_html() {
-    $value = get_option( 'google_maps', '' );
-    printf( '<input type="text" id="google_maps" class="regular-text" name="google_maps" value="%s" />', esc_attr( $value ) );
+    $value = get_option('google_maps', '');
+    printf('<input type="text" id="google_maps" class="regular-text" name="google_maps" value="%s" />', esc_attr($value));
 }
 
 function youtube_field_html() {
-    $value = get_option( 'youtube', '' );
-    printf( '<input type="text" id="youtube" class="regular-text" name="youtube" value="%s" />', esc_attr( $value ) );
+    $value = get_option('youtube', '');
+    printf('<input type="text" id="youtube" class="regular-text" name="youtube" value="%s" />', esc_attr($value));
 }
 
 /**
@@ -289,6 +296,8 @@ add_action('wp_enqueue_scripts', 'sp_ajax_data', 99);
 if (wp_doing_ajax()) {
     add_action('wp_ajax_more-products', 'more_products_callback');
     add_action('wp_ajax_nopriv_more-products', 'more_products_callback');
+    add_action('wp_ajax_more-contents', 'more_contents_callback');
+    add_action('wp_ajax_nopriv_more-contents', 'more_contents_callback');
     add_action('wp_ajax_feedback', 'feedback_callback');
     add_action('wp_ajax_nopriv_feedback', 'feedback_callback');
 }
@@ -296,6 +305,12 @@ if (wp_doing_ajax()) {
 function more_products_callback() {
     if(!wp_verify_nonce($_POST['nonce_code'], 'spAjax-nonce')) exit();
     get_template_part('template-parts/shop/shop', 'products');
+    wp_die();
+}
+
+function more_contents_callback() {
+    if(!wp_verify_nonce($_POST['nonce_code'], 'spAjax-nonce')) exit();
+    get_template_part('home');
     wp_die();
 }
 
@@ -354,3 +369,10 @@ function custom_woocommerce_email_order_meta_fields($fields, $sent_to_admin, $or
 }
 
 add_filter('woocommerce_email_order_meta_fields', 'custom_woocommerce_email_order_meta_fields', 10, 3);
+
+/**
+ *
+ */
+
+add_filter('excerpt_length', function(){return 21;});
+add_filter('excerpt_more', function($more){return ' ...';});

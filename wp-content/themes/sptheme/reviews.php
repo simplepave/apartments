@@ -1,6 +1,6 @@
 <?php
 
-/*
+/**
  * Template name: Отзывы
  */
 
@@ -53,7 +53,7 @@ get_header();
         <div class="reviews">
             <div class="container">
                 <div class="row_flex">
-                    <div class="block_header">отзывы</div>
+                    <div class="block_header"><?php echo $post->post_title; ?></div>
                     <a class="rev_button button_hover popup" href="#reviews_popup">Оставить отзывы</a>
                 </div>
             </div>

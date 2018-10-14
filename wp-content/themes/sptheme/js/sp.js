@@ -96,7 +96,53 @@ jQuery(document).ready(function($){
     });
 
     /**
-     *
+     * News
+     */
+
+    function newsMore(t) {
+        if(t.hasClass('working')) return;
+        var paged = t.attr('data-page');
+
+        var ajaxdata = {
+            action     : 'more-contents',
+            nonce_code : spAjax.nonce,
+            paged      : paged,
+        };
+
+        $.ajax({
+            type: 'post',
+            data: ajaxdata,
+            url: spAjax.url,
+            dataType: 'json',
+            beforeSend: function() {
+                t.addClass('working');
+                t.css({'filter': 'grayscale(100%) contrast(90%)'});
+            },
+            complete: function() {
+                t.removeClass('working');
+                t.css({'filter': 'none'});
+            },
+            success: function(json) {
+                if (json.success) {
+                    if (!json.next) t.hide();
+                    t.attr('data-page', ++paged);
+                    t.closest('.news_block')
+                        .find('.contents-block')
+                        .append(json.contents);
+            }},
+            error: function(xhr, ajaxOptions, thrownError) {
+                console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    }
+
+    $('#more-contents').click(function(e){
+        e.preventDefault();
+        newsMore($(this));
+    });
+
+    /**
+     * Reservation
      */
 
      $('body').on('submit', '#reservation-form', function(e){
@@ -130,7 +176,7 @@ jQuery(document).ready(function($){
     });
 
     /**
-     *
+     * Mail form
      */
 
      $('body').on('submit', '#rent-form, #feedback-form', function(e){

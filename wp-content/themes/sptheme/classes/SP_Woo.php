@@ -76,17 +76,9 @@ class SP_Woo {
         $query = "SELECT COUNT(oi.order_id) as `count`
         FROM {$wpdb->prefix}woocommerce_order_items as oi,
             {$wpdb->prefix}woocommerce_order_itemmeta as oim,
-            {$wpdb->prefix}posts as wp,
-            {$wpdb->prefix}postmeta as wpm,
-            {$wpdb->prefix}postmeta as wpd
+            {$wpdb->prefix}posts as wp
         WHERE wp.post_status = 'wc-completed'
             AND wp.ID = oi.order_id
-            AND wpm.post_id = oi.order_id
-            AND wpd.post_id = oi.order_id
-            AND wpm.meta_key = 'arrival'
-            AND wpd.meta_key = 'departure'
-            AND (STR_TO_DATE(wpm.meta_value,'%d.%m.%Y') < NOW() AND
-                STR_TO_DATE(CONCAT(wpd.meta_value, '23:59'),'%d.%m.%Y %H:%i') >= NOW())
             AND oi.order_item_id = oim.order_item_id
             AND oi.order_item_type = 'line_item'
             AND oim.meta_key = '_product_id'

@@ -1,0 +1,18 @@
+2018-10-13T19:42:01+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in W:\domains\apartments.local\wp-content\themes\sptheme\contact.php:12
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-13T20:24:52+00:00 CRITICAL Uncaught Error: Call to undefined function the_posts() in W:\domains\apartments.local\wp-content\themes\sptheme\home.php:9
+Stack trace:
+#0 W:\domains\apartments.local\wp-includes\template-loader.php(74): include()
+#1 W:\domains\apartments.local\wp-blog-header.php(19): require_once('W:\\domains\\apar...')
+#2 W:\domains\apartments.local\index.php(17): require('W:\\domains\\apar...')
+#3 {main}
+  thrown
+
+2018-10-13T21:15:19+00:00 CRITICAL Maximum execution time of 180 seconds exceeded
+

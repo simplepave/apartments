@@ -1,10 +1,10 @@
 <?php
-/*
+
+/**
  * Template name: Информация
  */
 
-$post = get_post(49);
-$card = get_post(43);
+$post = get_post();
 
 get_header();
 ?>

@@ -29,7 +29,7 @@ get_header();
             <div class="container">
                 <div class="bread-crumbs">
                     <ul>
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">Главная</a></li>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo get_the_title(get_option('page_on_front')); ?></a></li>
                         <li><a href="<?php echo esc_url(home_url($shop_data->post_name . '/')); ?>"><?php echo $shop_data->post_title; ?></a></li>
                         <li><a href="<?php echo esc_url(home_url($shop_data->post_name.'/'.$subcat->slug.'/')); ?>"><?php echo $subcat->name; ?></a></li>
                         <li class="active"><a href="<?php echo esc_url(home_url($shop_data->post_name.'/'.$subcat->slug.'/'.$product->post_name.'/')); ?>"><?php echo $product->post_title; ?></a></li>

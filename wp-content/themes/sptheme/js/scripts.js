@@ -4,16 +4,16 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 		$(this).next('div.nav_block').toggleClass('active');
 	});
-	
+
 	$('.nav_block ul li a').on('click', function(){
 		$('div.icon-menu').removeClass('active');
 		$('div.nav_block').removeClass('active');
 	});
-	
+
 	$('select').styler({ selectSearch: true });
-	
+
 	$(".popup").magnificPopup({removalDelay:300,type:"inline"});
-		
+
 });
 
 $(function(){
@@ -39,7 +39,31 @@ $(function(){
           $('body').removeClass('loading');
         }
       });
-    });
+});
+
+$(document).ready(function() {
+	var owl = $('.news_more_slider');
+    if (owl.length)
+    	owl.owlCarousel({
+		margin:30,
+		nav: false,
+		loop: true,
+		smartSpeed:500,
+		responsive: {
+			0: {
+			margin:0,
+			items: 1
+			},
+			780: {
+			items: 2
+			},
+			1000: {
+			items: 2
+			}
+		}
+	})
+})
+
 
 
 $(function(){

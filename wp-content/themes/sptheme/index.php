@@ -1,17 +1,14 @@
 <?php
 
 /**
- * Home page
+ * Index page
  */
 
-get_header();
-
-get_template_part('template-parts/home/home', 'title');
-get_template_part('template-parts/home/home', 'works_video');
-get_template_part('template-parts/home/home', 'we_our_own');
-get_template_part('template-parts/home/home', 'reviews');
-get_template_part('template-parts/home/home', 'application');
-get_template_part('template-parts/shop/shop', 'products');
-get_template_part('template-parts/home/home', 'popup');
-
-get_footer(); ?>
+echo 'Index page';
+echo '<br>';
+var_dump('Front page', is_front_page());
+echo '<br>';
+var_dump('Home page', is_home());
+echo '<br>';
+echo '<pre>';
+var_dump(get_post());
